@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_projet_ticket,access_projet_ticket,model_projet_ticket,base.group_user,1,1,1,1
+access_projet_ticket_image,access_projet_ticket_image,model_projet_ticket_image,base.group_user,1,1,1,1
+access_developer_tag,access_developer_tag,model_developer_tag,base.group_user,1,1,1,1

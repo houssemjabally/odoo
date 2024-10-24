@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_project_root"
+              name="Projet IT"
+    />
+    <menuitem id="menu_task"
+              name="Tache"
+              parent="menu_project_root"
+    />
+    <menuitem id="menu_tickets"
+              name="Tickets"
+              parent="menu_task"
+              action="action_project_it"
+    />
+    <menuitem id="menu_developer"
+              name="Developers"
+              parent="menu_project_root"
+    />
+    <menuitem id="menu_developer_tag"
+              name="Tags"
+              parent="menu_developer"
+              action="action_developer_tag"
+    />
+
+</odoo>
